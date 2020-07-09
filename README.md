@@ -23,16 +23,16 @@ There are two types of hotkeys: trigger and toggle.
 Trigger hotkeys directly trigger one Google Assistant command, and are configured using the following format:
 
 ```JSON
-"name": { <- name, doesn't matter but must be unique
+"name": { //Name, doesn't matter but must be unique
     "type": "trigger",
-    "keybind": [], <- array of keycodes
-    "query": "" <- command for Google Assistant
+    "keybind": [], //Array of keycodes
+    "query": "" //Command for Google Assistant
 }
 ```
 
 Toggle hotkeys alternate between two Google Assistant command (ex. toggling a light), and are configured using the following format:
 
-```JSON
+```JavaScript
 "name": { //Name, doesn't matter but must be unique
     "type": "toggle",
     "keybind": [], //Array of keycodes
