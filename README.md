@@ -33,12 +33,12 @@ Trigger hotkeys directly trigger one Google Assistant command, and are configure
 Toggle hotkeys alternate between two Google Assistant command (ex. toggling a light), and are configured using the following format:
 
 ```JSON
-"name": { <- name, doesn't matter but must be unique
+"name": { //Name, doesn't matter but must be unique
     "type": "toggle",
-    "keybind": [], <- array of keycodes
-    "defaultstatus": "", <- starting status, either "on" or "off"
-    "offquery": "", <- off command
-    "onquery": "" <- on command
+    "keybind": [], //Array of keycodes
+    "defaultstatus": "", //Starting status, either "on" or "off"
+    "offquery": "", //Off command
+    "onquery": "" //On command
 }
 ```
 
