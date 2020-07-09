@@ -8,7 +8,7 @@ Uses [nodejs-assistant](https://dabolus.github.io/nodejs-assistant/) for interfa
 Only tested on Windows, but should be compatible with MacOS and Linux.
 
 ## Usage
-1. Follow the instruction here[https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account] and here[https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device] for setting up the Google Assistant SDK
+1. Follow the instruction (here)[https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account] and (here)[https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device] for setting up the Google Assistant SDK
 2. Once you download your OAuth credentials, save them as client_secret.json
 3. Run authhelper.js to create a credentials.json file (this will prompt you to navigate to a URL and paste in the authorization code it gives you)
 4. Configure hotkeys.json. More information under [configuration](#markdown-header-configuration)
