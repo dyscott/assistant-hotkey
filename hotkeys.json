@@ -1,0 +1,26 @@
+{
+    "lightsoff": {
+        "type": "trigger",
+        "keybind": [29, 61003],
+        "query": "Turn off the lights"
+    },
+    "lightson": {
+        "type": "trigger",
+        "keybind": [29, 61005],
+        "query": "Turn on the lights"
+    },
+    "togglelights": {
+        "type": "toggle",
+        "keybind": [29, 61008],
+        "defaultstatus": "on",
+        "offquery": "Turn off the lights",
+        "onquery": "Turn on the lights"
+    },
+    "togglebright": {
+        "type": "toggle",
+        "keybind": [29, 61000],
+        "defaultstatus": "on",
+        "offquery": "Set lights to 1% brightness",
+        "onquery": "Set lights to 100% brightness"
+    }
+}
