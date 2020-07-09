@@ -22,7 +22,7 @@ There are two types of hotkeys: trigger and toggle.
 
 Trigger hotkeys directly trigger one Google Assistant command, and are configured using the following format:
 
-```JSON
+```JavaScript
 "name": { //Name, doesn't matter but must be unique
     "type": "trigger",
     "keybind": [], //Array of keycodes
