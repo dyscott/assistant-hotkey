@@ -1,5 +1,5 @@
-# Assistant Hot Key
-Assistant Hot Key is a command-line Node.JS application used to bind Google Assistant commands to system-wide hotkeys. 
+# Assistant Hotkey
+Assistant Hotkey is a command-line Node.JS application used to bind Google Assistant commands to system-wide hotkeys. 
 
 Useful for smart-home devices that don't have public APIs but do have Google Assistant support. 
 
